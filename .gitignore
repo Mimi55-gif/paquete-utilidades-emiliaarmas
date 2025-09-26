@@ -1,0 +1,23 @@
+# Archivos compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de test coverage
+*.out
+
+# Carpetas de dependencias y builds
+/vendor/
+/bin/
+/build/
+/dist/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local de VS Code
+.vscode/
+*.code-workspace
